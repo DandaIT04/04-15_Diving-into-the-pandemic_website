@@ -25,4 +25,4 @@ Option 1
 - Use RestDB to store score and name into db and display scoreboars
 
 ## Technologies Used
-[Covid API Credits](https://github.com/M-Media-Group/Covid-19-API)
+[Covid API Credits](https://disease.sh)
