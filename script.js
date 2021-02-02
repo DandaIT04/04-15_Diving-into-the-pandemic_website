@@ -29,6 +29,15 @@ $(document).ready(function(){
             $('#fact_id').append('<li>Total infected today: '+data.cases+'</li>');
         }
     })
+
+    $("#submit_button").on("click", function(e)
+    {
+        e.preventDefault();
+
+        window.location.href = "thirdpage.html";
+    })
+
+
 })
 
 
