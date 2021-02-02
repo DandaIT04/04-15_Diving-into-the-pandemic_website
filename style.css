@@ -350,5 +350,22 @@
   /* ====================================================================================================================================================n */
   /* sets default parameters for website, fixes margin */
   
-
+  .fact_ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background-color:white;
+    list-style: none;
+    font-size: 155%;
+  }
   
+  .fact_ul li{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background-color:white;
+    list-style: none;
+    font-size: 155%;
+  }
