@@ -569,6 +569,54 @@
     margin-left:5;
     font-size:250%;
   }
+
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* deaths onwards */
+
+  .fact_deaths{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#FF7471;
+    opacity:90%;
+  }
+  
+  .deaths_section{
+    flex: 50%;
+    max-width: 50%;
+  }
+  
+  .death_image{
+    float:center;
+    width: 50%;
+    height:85%;
+    margin-left:50%;
+    margin-top: 4%;
+    opacity:90%;
+  }
+  
+  .fact_ul_deaths li{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top:3%;
+    font-size:350%;
+    list-style-type: none;
+    margin-left:-15%;
+  }
+  
+  .fact_ul_deaths h2{
+    background-color:#FF7471;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    margin-top:3%;
+    font-size:250%;
+    margin-left:80%;
+  }
+ 
   
 
   /* ==================================================================================================================================================== */
@@ -644,11 +692,6 @@
       font-size:135%;
     }
 
-    /* Recovered */
-
-
-      
-
   }
 
   @media screen and (max-width:1400px){
@@ -708,6 +751,16 @@
         }
 
         .fact_ul_recovered h2{
+          font-size:200%;
+          margin-top:11%;
+        }
+        
+        /* deaths */
+        .fact_ul_deaths li{
+          font-size:300%;
+        }
+
+        .fact_ul_deaths h2{
           font-size:200%;
           margin-top:11%;
         }        
@@ -795,6 +848,19 @@
     
   }
 
+  /* deaths */
+
+  .fact_ul_deaths li{
+    font-size:250%;
+    margin-left:-10%;
+  }
+
+  .fact_ul_deaths h2{
+    margin-top:17%;
+    font-size:150%;
+    
+  }  
+
 
     /* background header onwards */
     .background_header{
@@ -878,7 +944,24 @@
   .fact_ul_recovered h2{
     margin-top:15%;
     font-size:150%;
-  }   
+  }
+  
+      /* deaths */
+
+      .death_image{
+        height:75%;
+      }
+
+      .fact_ul_deaths li{
+        font-size:200%;
+      }
+    
+      .fact_ul_deaths h2{
+        margin-top:15%;
+        font-size:150%;
+        margin-left:55%;
+      }
+
   }
 
   @media screen and (max-width:703px){
@@ -976,6 +1059,26 @@
   margin-bottom:10%;
 }
 
+/* deaths */
+.death_image{
+  width: 65%;
+  height:65%;
+  margin-left:18%;
+
+}
+
+.deaths_section{
+  flex: 100%;
+  max-width: 100%;
+}
+
+.fact_ul_deaths h2{
+  margin-left:88%;
+  font-size:155%;
+  margin-top:1%;
+  margin-bottom:10%;
+}
+
 @media screen and (max-width:531px){
   /* Cases */
   .fact_ul_cases h2{
@@ -995,7 +1098,15 @@
   /* Recovered */
   .fact_ul_recovered h2{
     margin-left:75%;
-  } 
+  }
+  
+  /* Deaths */
+  .fact_ul_deaths h2{
+    margin-left:60%;
+  }
+  .fact_ul_deaths li{
+    margin-left:1%;
+  }  
 }
 
 
@@ -1016,6 +1127,12 @@
     /* Recovered */
     .fact_ul_recovered h2{
       margin-left:70%;
+    }  
+    
+    /* deaths */
+
+    .fact_ul_deaths h2{
+      margin-left:55%;
     }    
   }
 
@@ -1079,7 +1196,19 @@
     
     .fact_ul_recovered li{
       margin-left:0%;
-    }        
+    }
+    
+        /*deaths*/
+        
+        .fact_ul_deaths h2{
+          margin-left:125px;
+          font-size:155%;
+          
+        }
+        
+        .fact_ul_deaths li{
+          margin-left:0%;
+        }    
   }
 
   @media screen and (max-width:344px){
@@ -1137,7 +1266,17 @@
               margin-left:0%;
             }
 
-
+            /* deaths */
+                        
+            .fact_ul_deaths h2{
+              margin-left:75px;
+              font-size:155%;
+                          
+              }
+                        
+              .fact_ul_deaths li{
+              margin-left:0%;
+              }
 
     /* background header onwards */
     .info p{

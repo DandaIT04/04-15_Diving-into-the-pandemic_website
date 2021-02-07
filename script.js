@@ -25,7 +25,7 @@ $(document).ready(function(){
 
             //There are x deaths and y recovery
             $('#fact_id_recovered').append('<h2>So far <li>'+data.recovered+'</li><h2> people reported <br>having recovered<h2>');
-            $('#fact_id_deaths').append('<h2>While <h2><li>'+data.deaths+'</li><h2> of them have died due to the virus<h2>');
+            $('#fact_id_deaths').append('<h2>While <h2><li>'+data.deaths+'</li><h2>perished due to the virus<h2>');
             
 
 
