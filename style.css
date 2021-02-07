@@ -616,6 +616,52 @@
     font-size:250%;
     margin-left:80%;
   }
+
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* chance onwards */
+
+  .fact_chance{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:white;
+    opacity:90%;
+  }
+
+  .chance_section{
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .chance_image{
+    float:center;
+    width: 50%;
+    height:85%;
+    margin-left:37%;
+    margin-top: 4%;
+    opacity:90%;
+  }
+
+  .fact_ul_chance li{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:#FF7471;
+    margin-top:3%;
+    font-size:350%;
+    list-style-type: none;
+  }
+
+  .fact_ul_chance h2{
+    background-color:white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top:7%;
+    margin-left:5;
+    font-size:250%;
+  }
  
   
 
@@ -763,6 +809,16 @@
         .fact_ul_deaths h2{
           font-size:200%;
           margin-top:11%;
+        }
+        
+        /* chance*/
+        .fact_ul_chance li{
+          font-size:300%;
+        }
+
+        .fact_ul_chance h2{
+          font-size:200%;
+          margin-top:11%;
         }        
     
   }
@@ -856,6 +912,19 @@
   }
 
   .fact_ul_deaths h2{
+    margin-top:17%;
+    font-size:150%;
+    
+  }
+  
+  /* chance */
+
+  .fact_ul_chance li{
+    font-size:250%;
+    margin-left:-10%;
+  }
+
+  .fact_ul_chance h2{
     margin-top:17%;
     font-size:150%;
     
@@ -961,6 +1030,21 @@
         font-size:150%;
         margin-left:55%;
       }
+
+      /* chance*/
+
+      .chance_image{
+        height:75%;
+      }
+
+  .fact_ul_chance li{
+    font-size:200%;
+  }
+
+  .fact_ul_chance h2{
+    margin-top:15%;
+    font-size:150%;
+  }      
 
   }
 
@@ -1079,6 +1163,27 @@
   margin-bottom:10%;
 }
 
+/*chance */
+.chance_image{
+  width: 65%;
+  height:65%;
+  margin-left:18%;
+
+}
+
+.chance_section{
+  flex: 100%;
+  max-width: 100%;
+}
+
+.fact_ul_chance h2{
+  margin-left:110%;
+  font-size:155%;
+  margin-top:1%;
+  margin-bottom:10%;
+}
+  }
+
 @media screen and (max-width:531px){
   /* Cases */
   .fact_ul_cases h2{
@@ -1106,11 +1211,16 @@
   }
   .fact_ul_deaths li{
     margin-left:1%;
+  } 
+  
+  /* chance */
+  .fact_ul_chance h2{
+    margin-left:75%;
   }  
 }
 
 
-  }
+  
 
   @media screen and (max-width:480px){
     /* cases */
@@ -1133,7 +1243,12 @@
 
     .fact_ul_deaths h2{
       margin-left:55%;
-    }    
+    }   
+    
+    /* chance */
+    .fact_ul_chance h2{
+      margin-left:70%;
+    }      
   }
 
 
@@ -1208,7 +1323,19 @@
         
         .fact_ul_deaths li{
           margin-left:0%;
-        }    
+        }  
+        
+    /*chance*/
+    
+    .fact_ul_chance h2{
+      margin-left:125px;
+      font-size:155%;
+      
+    }
+    
+    .fact_ul_chance li{
+      margin-left:0%;
+    }        
   }
 
   @media screen and (max-width:344px){
@@ -1277,6 +1404,18 @@
               .fact_ul_deaths li{
               margin-left:0%;
               }
+
+            /* chance */
+            
+            .fact_ul_chance h2{
+              margin-left:75px;
+              font-size:155%;
+              
+            }
+            
+            .fact_ul_chance li{
+              margin-left:0%;
+            }              
 
     /* background header onwards */
     .info p{

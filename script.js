@@ -24,13 +24,13 @@ $(document).ready(function(){
 
 
             //There are x deaths and y recovery
-            $('#fact_id_recovered').append('<h2>So far <li>'+data.recovered+'</li><h2> people reported <br>having recovered<h2>');
+            $('#fact_id_recovered').append('<h2>So far <h2><li>'+data.recovered+'</li><h2> people reported <br>having recovered<h2>');
             $('#fact_id_deaths').append('<h2>While <h2><li>'+data.deaths+'</li><h2>perished due to the virus<h2>');
             
 
 
             //x out of y people can be infected and today there are z infected cases
-            $('#fact_id_chance').append('<li>Infected Chance: ' + data.oneCasePerPeople+'</li>');
+            $('#fact_id_chance').append('<h2>Probability of<br> one case per <h2><li>' + data.oneCasePerPeople+'</li><h2> people<h2>');
             $('#fact_id_today').append('<li>Infected Today: '+data.todayCases+'</li>');
         }
     })
