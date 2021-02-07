@@ -31,7 +31,7 @@ $(document).ready(function(){
 
             //x out of y people can be infected and today there are z infected cases
             $('#fact_id_chance').append('<h2>Probability of<br> one case per <h2><li>' + data.oneCasePerPeople+'</li><h2> people<h2>');
-            $('#fact_id_today').append('<li>Infected Today: '+data.todayCases+'</li>');
+            $('#fact_id_today').append('<h2>There are <h2><li>'+data.todayCases+'</li><h2> infected cases<br> today<h2>');
         }
     })
 

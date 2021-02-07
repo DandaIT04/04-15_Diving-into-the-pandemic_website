@@ -662,6 +662,53 @@
     margin-left:5;
     font-size:250%;
   }
+
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* today onwards */
+
+  .fact_today{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#B9C1DA;
+    opacity:90%;
+  }
+  
+  .today_section{
+    flex: 50%;
+    max-width: 50%;
+  }
+  
+  .today_image{
+    float:center;
+    width: 50%;
+    height:85%;
+    margin-left:78%;
+    margin-top: 4%;
+    opacity:90%;
+  }
+  
+  .fact_ul_today li{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:#FF7471;
+    margin-top:3%;
+    font-size:350%;
+    list-style-type: none;
+    margin-left:-15%;
+  }
+  
+  .fact_ul_today h2{
+    background-color:#B9C1DA;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    margin-top:3%;
+    font-size:250%;
+    margin-left:140%;
+  }
  
   
 
@@ -819,6 +866,16 @@
         .fact_ul_chance h2{
           font-size:200%;
           margin-top:11%;
+        }
+        
+        /* today */
+        .fact_ul_today li{
+          font-size:300%;
+        }
+
+        .fact_ul_today h2{
+          font-size:200%;
+          margin-top:11%;
         }        
     
   }
@@ -930,6 +987,18 @@
     
   }  
 
+  /* today */
+
+  .fact_ul_today li{
+    font-size:250%;
+    margin-left:-10%;
+  }
+
+  .fact_ul_today h2{
+    margin-top:17%;
+    font-size:150%;
+    
+  }  
 
     /* background header onwards */
     .background_header{
@@ -1044,7 +1113,23 @@
   .fact_ul_chance h2{
     margin-top:15%;
     font-size:150%;
-  }      
+  }
+  
+      /* today */
+
+      .today_image{
+        height:75%;
+      }
+
+      .fact_ul_today li{
+        font-size:200%;
+      }
+    
+      .fact_ul_today h2{
+        margin-top:15%;
+        font-size:150%;
+        margin-left:55%;
+      }  
 
   }
 
@@ -1182,6 +1267,26 @@
   margin-top:1%;
   margin-bottom:10%;
 }
+
+/* today */
+.today_image{
+  width: 65%;
+  height:65%;
+  margin-left:18%;
+
+}
+
+.today_section{
+  flex: 100%;
+  max-width: 100%;
+}
+
+.fact_ul_today h2{
+  margin-left:88%;
+  font-size:155%;
+  margin-top:1%;
+  margin-bottom:10%;
+}
   }
 
 @media screen and (max-width:531px){
@@ -1216,7 +1321,15 @@
   /* chance */
   .fact_ul_chance h2{
     margin-left:75%;
-  }  
+  } 
+  
+  /* today */
+  .fact_ul_today h2{
+    margin-left:60%;
+  }
+  .fact_ul_today li{
+    margin-left:1%;
+  }   
 }
 
 
@@ -1248,7 +1361,13 @@
     /* chance */
     .fact_ul_chance h2{
       margin-left:70%;
-    }      
+    } 
+    
+    /* today*/
+
+    .fact_ul_today h2{
+      margin-left:55%;
+    }       
   }
 
 
@@ -1335,7 +1454,19 @@
     
     .fact_ul_chance li{
       margin-left:0%;
-    }        
+    } 
+    
+        /*today*/
+        
+        .fact_ul_today h2{
+          margin-left:125px;
+          font-size:155%;
+          
+        }
+        
+        .fact_ul_today li{
+          margin-left:0%;
+        }     
   }
 
   @media screen and (max-width:344px){
@@ -1415,7 +1546,19 @@
             
             .fact_ul_chance li{
               margin-left:0%;
-            }              
+            } 
+            
+            /* today */
+                        
+            .fact_ul_today h2{
+              margin-left:75px;
+              font-size:155%;
+                          
+              }
+                        
+              .fact_ul_today li{
+              margin-left:0%;
+              }            
 
     /* background header onwards */
     .info p{
