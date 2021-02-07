@@ -18,15 +18,19 @@ $(document).ready(function(){
             console.log(data)
             $('#fact_id').html('');
     
+            //There are total cases in singapore and x infected right now
             $('#fact_id_cases').append('<li>Total Cases: '+data.cases+'</li>');
-
             $('#fact_id_current').append('<li>Current Infected: '+data.active+'</li>');
 
-            $('#fact_id_deaths').append('<li>Total Deaths: '+data.deaths+'</li>');
 
+            //There are x deaths and y recovery
+            $('#fact_id_deaths').append('<li>Total Deaths: '+data.deaths+'</li>');
             $('#fact_id_recovered').append('<li>Total Recovered: '+data.recovered+'</li>');
 
-            $('#fact_id_today').append('<li>Total infected today: '+data.cases+'</li>');
+
+            //x out of y people can be infected and today there are z infected cases
+            $('#fact_id_chance').append('<li>Infected Chance: ' + data.oneCasePerPeople+'</li>');
+            $('#fact_id_today').append('<li>Infected Today: '+data.todayCases+'</li>');
         }
     })
 

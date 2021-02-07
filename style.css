@@ -436,7 +436,7 @@
   /* ====================================================================================================================================================n */
   /* fact/API onwards */
 
-  .fact_ul{
+  .fact_ul_cases{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -446,7 +446,7 @@
     font-size: 155%;
   }
   
-  .fact_ul li{
+  .fact_ul_cases li{
     justify-content: center;
     align-items: center;
     text-align: center;
