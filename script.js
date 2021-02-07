@@ -20,7 +20,7 @@ $(document).ready(function(){
     
             //There are total cases in singapore and x infected right now
             $('#fact_id_cases').append('<h2>There are a total of <h2><li>'+data.cases+'</li><h2> Cases in Singapore');
-            $('#fact_id_current').append('<li>Current Infected: '+data.active+'</li>');
+            $('#fact_id_current').append('<h2>Currently <h2><li>'+data.active+'</li><h2> are infected in Singapore');
 
 
             //There are x deaths and y recovery

@@ -452,7 +452,7 @@
   float:center;
   width: 50%;
   height:85%;
-  margin-left:25%;
+  margin-left:37%;
   margin-top: 4%;
   opacity:90%;
 }
@@ -461,8 +461,8 @@
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   color:black;
-  text-align: center;
   margin-top:3%;
+  margin-left:-35%;
   font-size:350%;
   list-style-type: none;
 }
@@ -472,11 +472,57 @@
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   color:white;
-  text-align: center;
-  margin-top:3%;
-  margin-right:20%;
+  margin-top:7%;
+  margin-left:45%;
   font-size:250%;
 }
+
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* current onwards */
+
+  .fact_current{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:white;
+    opacity:90%;
+  }
+  
+  .current_section{
+    flex: 50%;
+    max-width: 50%;
+  }
+  
+  .sick_image2{
+    float:center;
+    width: 50%;
+    height:85%;
+    margin-left:50%;
+    margin-top: 4%;
+    opacity:90%;
+  }
+  
+  .fact_ul_current li{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:#007EB8;
+    margin-top:3%;
+    font-size:350%;
+    list-style-type: none;
+    margin-left:-15%;
+  }
+  
+  .fact_ul_current h2{
+    background-color:white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    margin-top:3%;
+    font-size:250%;
+    margin-left:80%;
+  }
 
   /* ==================================================================================================================================================== */
   /* ==================================================================================================================================================== */
@@ -490,13 +536,14 @@
   }
 
   .background_header{
-    background-color:white;
+    background-color:#282834;
     font-size: 200%;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    opacity:90%;
+    padding-top:2%;
+    padding-bottom:2%;
   }
 
   .background_header h1{
@@ -506,8 +553,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #FF7471;
-    opacity:90%;
+    color: white;
   }
 
   .Info{
@@ -584,6 +630,26 @@
         .container{
           padding-bottom:65%;
         }
+
+        /* cases */
+        .fact_ul_cases li{
+          font-size:300%;
+        }
+
+        .fact_ul_cases h2{
+          font-size:200%;
+          margin-top:11%;
+        }
+
+        /* current */
+        .fact_ul_current li{
+          font-size:300%;
+        }
+
+        .fact_ul_current h2{
+          font-size:200%;
+          margin-top:11%;
+        }
     
   }
 
@@ -630,16 +696,29 @@
   }
 
   /* Cases */
-  .fact_ul_cases h1{
-margin-top:25%;
-  }
 
   .fact_ul_cases li{
     font-size:250%;
+    margin-left:-10%;
   }
 
   .fact_ul_cases h2{
-    font-size:200%;
+    margin-top:17%;
+    font-size:150%;
+    
+  }
+
+  /* Current */
+
+  .fact_ul_current li{
+    font-size:250%;
+    margin-left:-10%;
+  }
+
+  .fact_ul_current h2{
+    margin-top:17%;
+    font-size:150%;
+    
   }
 
 
@@ -682,21 +761,35 @@ margin-top:25%;
           padding-bottom:100%;
         }
 
-        .sick_image{
-          height:75%;
-        }
-
           /* Cases */
-  .fact_ul_cases h1{
-    margin-top:35%;
-      }
+
+          .sick_image{
+            height:75%;
+          }
     
       .fact_ul_cases li{
         font-size:200%;
       }
     
       .fact_ul_cases h2{
+        margin-top:15%;
         font-size:150%;
+      }
+
+      /* Current */
+
+      .sick_image2{
+        height:75%;
+      }
+
+      .fact_ul_current li{
+        font-size:200%;
+      }
+    
+      .fact_ul_current h2{
+        margin-top:15%;
+        font-size:150%;
+        margin-left:55%;
       }
     
   }
@@ -710,7 +803,7 @@ margin-top:25%;
     
   }
 
-  @media screen and (max-width:650px){
+  @media screen and (max-width:721px){
 
 
     /* background header onwards */
@@ -741,6 +834,7 @@ margin-top:25%;
   width: 65%;
   height:65%;
   margin-left:18%;
+
 }
 
 .case_section{
@@ -748,21 +842,58 @@ margin-top:25%;
   max-width: 100%;
 }
 
-.fact_ul_cases h1{
-  margin-top:-25%;
-}
-
 .fact_ul_cases h2{
-  margin-left:200px;
+  margin-left:110%;
   font-size:155%;
-  
+  margin-top:1%;
+  margin-bottom:10%;
 }
 
-.fact_ul_cases li{
-  margin-left:0%;
+/* Current */
+.sick_image2{
+  width: 65%;
+  height:65%;
+  margin-left:18%;
+
+}
+
+.current_section{
+  flex: 100%;
+  max-width: 100%;
+}
+
+.fact_ul_current h2{
+  margin-left:88%;
+  font-size:155%;
+  margin-top:1%;
+  margin-bottom:10%;
+}
+
+@media screen and (max-width:531px){
+  .fact_ul_cases h2{
+    margin-left:75%;
+  }
+
+  .fact_ul_current h2{
+    margin-left:60%;
+  }
+  .fact_ul_current li{
+    margin-left:1%;
+  }
 }
 
 
+  }
+
+  @media screen and (max-width:480px){
+    /* cases */
+    .fact_ul_cases h2{
+      margin-left:70%;
+    }
+
+    .fact_ul_current h2{
+      margin-left:55%;
+    }
   }
 
 
@@ -772,7 +903,7 @@ margin-top:25%;
     /* container */
     .top-left {
       top: 30%;
-      margin-left:-10%;
+      margin-left:-17%;
       font-size:200%;
     }
   
@@ -792,9 +923,6 @@ margin-top:25%;
     }
 
     /*cases*/
-    .fact_ul_cases h1{
-      margin-top:-25%;
-    }
     
     .fact_ul_cases h2{
       margin-left:125px;
@@ -805,6 +933,18 @@ margin-top:25%;
     .fact_ul_cases li{
       margin-left:0%;
     }
+
+        /*current*/
+        
+        .fact_ul_current h2{
+          margin-left:125px;
+          font-size:155%;
+          
+        }
+        
+        .fact_ul_current li{
+          margin-left:0%;
+        }
   }
 
   @media screen and (max-width:344px){
@@ -824,9 +964,8 @@ margin-top:25%;
               padding-bottom:220%;
             }
 
-            .fact_ul_cases h1{
-              margin-top:-25%;
-            }
+
+            /* Cases */
             
             .fact_ul_cases h2{
               margin-left:75px;
@@ -837,6 +976,18 @@ margin-top:25%;
             .fact_ul_cases li{
               margin-left:0%;
             }
+
+            /* Current */
+                        
+              .fact_ul_current h2{
+              margin-left:75px;
+              font-size:155%;
+                          
+              }
+                        
+              .fact_ul_current li{
+              margin-left:0%;
+              }
 
 
 
