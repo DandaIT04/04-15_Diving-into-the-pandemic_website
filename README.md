@@ -24,3 +24,8 @@ Option 1
 
 ## Technologies Used
 [Covid API Credits](https://disease.sh)
+
+[Images]
+(https://pixabay.com/users/mohamed_hassan-5229782/)
+(https://pixabay.com/users/clker-free-vector-images-3736/)
+(https://pixabay.com/users/moremilu-11409661/)
