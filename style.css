@@ -354,7 +354,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#D4E9FF;
+  }
+
+  .parallax{
+    background-image: url("images/singapore_2.jpg");
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /* ==================================================================================================================================================== */
@@ -400,28 +409,26 @@
   .container {
     position: relative;
     text-align: center;
-
     color: white;
+    padding-bottom:50%;
   }
 
 
   .top-left {
+    text-align: center;
+    
     padding-top:2%;
     padding-bottom:2%;
     padding-left:5%;
     padding-right:5%;
     position: absolute;
     top: 30%;
-    left: 10%;
+    left:38%;
     background-color:black;
     font-size:250%;
-    opacity:55%;
+    opacity:70%;
+    margin-bottom:55%;
   }
-
-.singapore_image{
-  width:80%;
-  height:55%;
-}
 
   /* ==================================================================================================================================================== */
   /* ==================================================================================================================================================== */
@@ -456,39 +463,36 @@
   /* background onwards */
 
   .background_info{
-    background-color:white;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
   }
 
   .background_header{
-    margin-left: 10%;
-    margin-right: 10%;
     background-color:white;
     font-size: 200%;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    opacity:90%;
   }
 
   .background_header h1{
     margin-left: 5%;
     margin-right: 5%;
-    background-color:white;
     font-size: 200%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #FF7E41;
+    color: #FF7471;
+    opacity:90%;
   }
 
   .Info{
     flex: 50%;
     max-width: 50%;
-    background-color:#FF7E41;
+    background-color:#FF7471;
+    opacity:90%;
   }
 
   .background_image {
@@ -497,10 +501,13 @@
    height:85%;
    margin-left:25%;
    margin-top: 4%;
+   opacity:90%;
    } 
 
   .Info p{
-    background-color:#FF7E41;
+    background-color:#FF7471;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     color:white;
     text-align: center;
     margin-top:7%;
@@ -523,8 +530,15 @@
     }
   }
 
-  @media screen and (max-width:1285px){
+  @media screen and (max-width:1400px){
+    /*container*/
+    .container{
+      padding-bottom:55%;
+    }
+    
+  }
 
+  @media screen and (max-width:1285px){
 
     /* background header onwards */
     .background_image {
@@ -538,7 +552,16 @@
     .Info p{
       font-size:135%;
     }
+
+
+
+        /* container */
+        .container{
+          padding-bottom:65%;
+        }
+    
   }
+
 
   @media screen and (max-width:1150px){
 
@@ -547,6 +570,13 @@
     .Info p{
       font-size:120%;
     }
+
+
+        /* container */
+        .container{
+          padding-bottom:70%;
+        }
+    
   }
 
   @media screen and (max-width:1000px){
@@ -558,6 +588,10 @@
     }
 
     /* container */
+    .container{
+      padding-bottom:75%;
+    }
+
     .top-left {
       padding-top:2%;
       padding-bottom:2%;
@@ -593,6 +627,30 @@
     }
   }
 
+  @media screen and (max-width:930px){
+        /* container */
+        .container{
+          padding-bottom:85%;
+        }
+    
+  }
+
+  @media screen and (max-width:825px){
+        /* container */
+        .container{
+          padding-bottom:100%;
+        }
+    
+  }
+
+  @media screen and (max-width:703px){
+        /* container */
+        .container{
+          padding-bottom:120%;
+        }
+    
+  }
+
   @media screen and (max-width:650px){
 
 
@@ -613,6 +671,11 @@
       margin-left:20%;
       margin-top:-21%;
     }
+
+            /* container */
+            .container{
+              padding-bottom:153%;
+            }
   }
 
   @media screen and (max-width:458px){
@@ -628,6 +691,11 @@
     width:100%;
     height:40%;
   }
+
+          /* container */
+          .container{
+            padding-bottom:202%;
+          }
 
     /* background header onwards */
     .background_header h1{
@@ -647,6 +715,10 @@
       top: 30%;
       font-size:150%;
     }
+            /* container */
+            .container{
+              padding-bottom:220%;
+            }
 
 
 
