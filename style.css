@@ -349,6 +349,14 @@
   /* ==================================================================================================================================================== */
   /* ====================================================================================================================================================n */
   /* sets default parameters for website, fixes margin */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#D4E9FF;
+  }
+
   
   .fact_ul{
     justify-content: center;
@@ -370,9 +378,55 @@
     font-size: 155%;
   }
 
-  .info{
+  .background_info{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .background_header{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:white;
+    font-size: 200%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 155%;
+    color: white;
+  }
+
+  .background_header h1{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:white;
+    font-size: 200%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FF7E41;
+  }
+
+  .Info{
+    flex: 50%;
+    max-width: 50%;
+    background-color:#FF7E41;
+  }
+
+  .background_image {
+   float:center;
+   width: 50%;
+   height:85%;
+   margin-left:25%;
+   margin-top: 4%;
+   } 
+
+  .Info p{
+    background-color:#FF7E41;
+    color:white;
+    text-align: center;
+    margin-top:7%;
+    margin-right:20%;
+    font-size:150%;
   }

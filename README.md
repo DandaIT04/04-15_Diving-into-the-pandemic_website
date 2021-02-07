@@ -12,8 +12,6 @@ Purpose is to integrate API into a website. Lottie as loading. Trivia as game.
 the number of cases of covid19 in singapore, whatever
 the api provides.
 - Need a good background for this.
-- Scroll down will load another section about a few covid 19
-facts.
 - Then a learn more button will be at the bottom. Taking
 us to a new html page with summarized information regarding
 covid-19. What caused it, what caused the spread, new strains,

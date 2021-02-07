@@ -18,15 +18,15 @@ $(document).ready(function(){
             console.log(data)
             $('#fact_id').html('');
     
-            $('#fact_id').append('<li>Total Cases: '+data.cases+'</li>');
+            $('#fact_id_cases').append('<li>Total Cases: '+data.cases+'</li>');
 
-            $('#fact_id').append('<li>Current Infected: '+data.active+'</li>');
+            $('#fact_id_current').append('<li>Current Infected: '+data.active+'</li>');
 
-            $('#fact_id').append('<li>Total Deaths: '+data.deaths+'</li>');
+            $('#fact_id_deaths').append('<li>Total Deaths: '+data.deaths+'</li>');
 
-            $('#fact_id').append('<li>Total Recovered: '+data.recovered+'</li>');
+            $('#fact_id_recovered').append('<li>Total Recovered: '+data.recovered+'</li>');
 
-            $('#fact_id').append('<li>Total infected today: '+data.cases+'</li>');
+            $('#fact_id_today').append('<li>Total infected today: '+data.cases+'</li>');
         }
     })
 
