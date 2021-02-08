@@ -40,9 +40,11 @@ Option 1
 - (https://pixabay.com/photos/wuhan-gourmet-crayfish-2453042/)
 - (https://pixabay.com/users/mintblack4u-16107934/)
 - (https://pixabay.com/users/jarmoluk-143740/)
+- (https://pixabay.com/users/mohamed_hassan-5229782/)
 
 [Info]
 - (https://en.wikipedia.org/wiki/COVID-19_pandemic#:~:text=The%20COVID%2D19%20pandemic,pandemic%20in%20March%202020.)
 - (https://www.who.int/docs/default-source/coronaviruse/key-messages-and-actions-for-covid-19-prevention-and-control-in-schools-march-2020.pdf?sfvrsn=baf81d52_4)
 - (https://www.channelnewsasia.com/news/singapore/covid-19-cases-singapore-steroid-treatment-dexamethasone-12858534)
 - (https://www.moh.gov.sg/covid-19/vaccination)
+- (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)

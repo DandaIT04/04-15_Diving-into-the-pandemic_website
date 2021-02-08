@@ -465,6 +465,7 @@
   .covid_intro{
     display: flex;
     flex-wrap: wrap;
+    
   }
   
   .info_intro{
@@ -606,6 +607,44 @@
      margin-top:11%;
      margin-left:20%;
      font-size:150%;
+   }  
+   
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* prevention onwards */
+  
+  .covid_prevention{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info_prevention{
+    flex: 50%;
+    max-width: 50%;
+    background-color:#FF7471;
+    opacity:90%;
+  }
+  
+  .prevention_1_image {
+    float:center;
+    width: 50%;
+    height:85%;
+    margin-left:25%;
+    margin-top: 4%;
+    opacity:90%;
+    } 
+ 
+   .info_prevention p{
+     background-color:#FF7471;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace;
+     color:black;
+     text-align: center;
+     margin-top:11%;
+     margin-right:20%;
+     font-size:150%;
    }    
 
   /* End of base css */
@@ -632,6 +671,10 @@
     .info_cure p{
       font-size:135%;
     }
+
+    .info_prevention p{
+      font-size:135%;
+    }    
 
   }
 
@@ -699,6 +742,19 @@
       font-size:135%;   
     }
 
+    .prevention_1_image{
+      float:center;
+      width: 50%;
+      height:75%;
+      margin-left:25%;
+      margin-top: 9%;      
+    }
+
+    .info_prevention p{
+      font-size:135%;
+    }
+
+
   }
 
   @media screen and (max-width:1150px){
@@ -717,6 +773,10 @@
     }
 
     .info_cure p{
+      font-size:120%;
+    }  
+    
+    .info_prevention p{
       font-size:120%;
     }    
 
@@ -795,7 +855,15 @@
       font-size:110%;
     }  
 
-    
+    .prevention_1_image{
+      width: 65%;
+      height:75%;
+      margin-left:18%;
+      margin-top: 12%;
+    }
+    .info_prevention p{
+      font-size:110%;
+    }     
     
 }
 
@@ -894,6 +962,23 @@
 
     .info_cure p{
       margin-right:20%;
+    }
+    
+    .prevention_1_image{
+      width: 65%;
+      height:65%;
+      margin-left:18%;
+      margin-top: 5%;
+    }
+
+    .info_prevention{
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .info_prevention p{
+      margin-left:20%;
+      margin-top:-15%;
     }     
 
 /* container */
@@ -970,6 +1055,10 @@
     .info_spread p{
       margin-top:-35%;
     }
+
+    .info_prevention p{
+      margin-top:-35%;
+    }    
 
 
 }
