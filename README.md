@@ -36,3 +36,7 @@ Option 1
 - (https://pixabay.com/users/free-photos-242387/)
 - (https://pixabay.com/users/vitalworks-2369278/)
 - (https://pixabay.com/users/crissa-5926727/)
+- (https://pixabay.com/users/thedigitalartist-202249/)
+
+[Info]
+- (https://en.wikipedia.org/wiki/COVID-19_pandemic#:~:text=The%20COVID%2D19%20pandemic,pandemic%20in%20March%202020.)
