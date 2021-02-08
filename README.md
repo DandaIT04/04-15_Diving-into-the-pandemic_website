@@ -1,13 +1,13 @@
 # 04&15_Diving-into-the-pandemic_Assg3_website
 
-The purpose of our website is to educate people regarding covid-19.
-We will be using summarized text and quiz.
-Covid-19 API is featured in Postman.
-index.html will have lottie loading screen which will load secondpage.html which is the main page
-secondpage.html will contain API data and some text
-thirdpage.html will contain information used for quiz
-quiz will be graded by points
-name and points will be stored in restDB and loaded in quiz page dynamically
+- The purpose of our website is to educate people regarding covid-19.
+- We will be using summarized text and quiz.
+- Covid-19 API is featured in Postman.
+- index.html will have lottie loading screen which will load secondpage.html which is the main page
+- secondpage.html will contain API data and some text
+- thirdpage.html will contain information used for quiz
+- quiz will be graded by points
+- name and points will be stored in restDB and loaded in quiz page dynamically
 
 
 ## Technologies Used
