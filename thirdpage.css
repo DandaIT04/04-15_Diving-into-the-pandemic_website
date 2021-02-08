@@ -456,6 +456,12 @@
     color: white;
   }
 
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* intro onwards */
+
   .covid_intro{
     display: flex;
     flex-wrap: wrap;
@@ -488,6 +494,44 @@
      font-size:150%;
    }
 
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* Origins onwards */
+  
+   .covid_origins{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info_origins{
+    flex: 50%;
+    max-width: 50%;
+    background-color:#FF7471;
+    opacity:90%;
+  }
+  
+  .origin_1_image {
+    float:center;
+    width: 50%;
+    height:85%;
+    margin-left:15%;
+    margin-top: 4%;
+    opacity:90%;
+    } 
+ 
+   .info_origins p{
+     background-color:#FF7471;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace;
+     color:white;
+     text-align: center;
+     margin-top:11%;
+     margin-left:20%;
+     font-size:150%;
+   } 
+
   /* End of base css */
   /* ==================================================================================================================================================== */
   /* ==================================================================================================================================================== */
@@ -498,6 +542,10 @@
 
     /* background header */
     .info_intro p{
+      font-size:135%;
+    }
+
+    .info_origins p{
       font-size:135%;
     }
 
@@ -530,6 +578,18 @@
     .info_intro p{
       font-size:135%;
     }
+
+    .origin_1_image {
+      float:center;
+      width: 50%;
+      height:75%;
+      margin-left:25%;
+      margin-top: 9%;
+    }
+
+    .info_origins p{
+      font-size:135%;   
+    }
   }
 
   @media screen and (max-width:1150px){
@@ -537,7 +597,11 @@
     /* background header onwards */
     .info_intro p{
       font-size:120%;
-    }    
+    }
+    
+    .info_origins {
+      font-size:120%;
+    }
 
     /* container */
     .container{
@@ -585,7 +649,22 @@
     }
     .info_intro p{
       font-size:110%;
-    }    
+    }
+    
+    .origins_info{
+      margin-left:0%;
+      margin-right:0%;
+    }
+
+    .origins_1_image{
+      width: 65%;
+      height:75%;
+      margin-left:18%;
+      margin-top: 12%;
+    }
+    .info_origins p{
+      font-size:110%;
+    }  
 }
 
 @media screen and (max-width:930px){
@@ -633,7 +712,23 @@
       margin-left:20%;
       margin-top:-15%;
     }
-    
+
+    .origins_1_image{
+      width: 65%;
+      height:65%;
+      margin-right:18%;
+      margin-bottom: 5%;
+    }
+
+    .info_origins{
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .info_origins p{
+      margin-right:20%;
+    }    
+
 /* container */
 .container{
     padding-bottom:153%;
@@ -658,6 +753,23 @@
     padding-bottom:202%;
 }
 
+/* origins */
+
+.info_origins p{
+  font-size:95%;
+}
+
+.origins_1_image{
+  width: 45%;
+  height:65%;
+  margin-right:18%;
+  margin-bottom: 5%;
+}
+
+.background_header h1{
+  font-size:150%;
+}
+
 }
 
 @media screen and (max-width:344px){
@@ -676,6 +788,7 @@
     .info_intro p{
       margin-top:-35%;
     }
+
 
 }
 
