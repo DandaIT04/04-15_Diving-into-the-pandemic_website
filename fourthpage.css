@@ -366,6 +366,30 @@ template {
   background-size: cover;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom:50%;
+}
+
+
+.top-left {
+  text-align: center;
+  
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:5%;
+  padding-right:5%;
+  position: absolute;
+  top: 30%;
+  left:38%;
+  background-color:black;
+  font-size:250%;
+  opacity:70%;
+  margin-bottom:55%;
+}
+
   /* ==================================================================================================================================================== */
   /* ==================================================================================================================================================== */
   /* ====================================================================================================================================================n */
@@ -475,4 +499,108 @@ template {
 #results{
   color:white;
   background-color:black;
+}
+
+  /* End of base css */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ==================================================================================================================================================== */
+  /* ====================================================================================================================================================n */
+  /* start of media screen at 1600px */
+
+  @media screen and (max-width:1400px){
+    /*container*/
+    .container{
+      padding-bottom:55%;
+    }
+    
+  }
+
+  @media screen and (max-width:1285px){
+    /* container */
+    .container{
+        padding-bottom:65%;
+      }
+    }
+
+  @media screen and (max-width:1150px){    
+    /* container */
+    .container{
+      padding-bottom:70%;
+    }  
+    
+  }  
+
+  @media screen and (max-width:1000px){
+    /* container */
+    .container{
+      padding-bottom:75%;
+    }
+    
+  }
+
+  @media screen and (max-width:930px){
+    /* container */
+    .container{
+      padding-bottom:85%;
+    }
+
+
+
+}
+
+@media screen and (max-width:825px){
+  /* container */
+  .container{
+    padding-bottom:100%;
+  }
+
+}
+
+@media screen and (max-width:703px){
+  /* container */
+  .container{
+    padding-bottom:120%;
+  }
+
+
+}
+
+@media screen and (max-width:721px){
+/* container */
+.container{
+  padding-bottom:153%;
+
+}  
+
+
+}
+
+@media screen and (max-width:458px){
+
+
+  /* container */
+  .top-left {
+      top: 30%;
+      margin-left:-17%;
+      font-size:200%;
+  }
+  
+  /* container */
+  .container{
+      padding-bottom:202%;
+  }
+}
+
+@media screen and (max-width:344px){
+
+  /* container */
+.top-left {
+  top: 30%;
+  font-size:150%;
+}
+
+.container{
+  padding-bottom:220%;
+}
 }
