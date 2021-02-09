@@ -29,6 +29,7 @@
 - (https://pixabay.com/users/mintblack4u-16107934/)
 - (https://pixabay.com/users/jarmoluk-143740/)
 - (https://pixabay.com/users/mohamed_hassan-5229782/)
+- (https://pixabay.com/users/foundry-923783/)
 
 [Info]
 - (https://en.wikipedia.org/wiki/COVID-19_pandemic#:~:text=The%20COVID%2D19%20pandemic,pandemic%20in%20March%202020.)

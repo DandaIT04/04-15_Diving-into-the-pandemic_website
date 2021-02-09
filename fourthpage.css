@@ -356,11 +356,14 @@ template {
   box-sizing: border-box;
 }
 
-body{
-	font-size: 20px;
-	font-family: 'Courier New';
-	color: #333;
-  background-color:black;
+.parallax{
+  background-image: url("images/library_2.jpg");
+    
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
   /* ==================================================================================================================================================== */
@@ -402,20 +405,20 @@ body{
 #quiz{
   margin: auto;
   width: 50%;
-  border: 3px solid skyblue;
+  border: 10px solid skyblue;
   padding: 10px;
   text-align: center;
-  background-color:white;
+  background-color:#FF7471;
 }
 .question{
   font-size:150%;
-  color:black;
+  color:white;
+  margin-bottom:3%;
 }
 .answers {
-  font-weight: 600;
     margin-bottom: 20px;
   font-size:115%;
-   color:black;
+   color:white;
 }
   .background_header{
     background-color:#282834;
@@ -424,7 +427,7 @@ body{
     align-items: center;
     text-align: center;
     color: white;
-    padding-top:2%;
+    padding-top:5%;
     padding-bottom:2%;
   }
 
@@ -471,4 +474,5 @@ body{
 
 #results{
   color:white;
+  background-color:black;
 }
