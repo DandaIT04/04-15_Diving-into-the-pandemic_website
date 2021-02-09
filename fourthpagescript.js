@@ -2,6 +2,7 @@ var myQuestions = [
 	{
 		question: "What is the scientific name for Covid-19?",
 		answers: {
+            
 			a: 'Covideo Nineteen',
 			b: 'Coronation-19',
 			c: 'Coronavirus',
