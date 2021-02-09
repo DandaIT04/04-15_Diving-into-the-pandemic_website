@@ -454,6 +454,7 @@
   margin-left:37%;
   margin-top: 4%;
   opacity:90%;
+  border-radius: 25px;
 }
 
 .fact_ul_cases li{
@@ -501,6 +502,7 @@
     margin-left:50%;
     margin-top: 4%;
     opacity:90%;
+    border-radius: 25px;
   }
   
   .fact_ul_current li{
@@ -548,6 +550,7 @@
     margin-left:37%;
     margin-top: 4%;
     opacity:90%;
+    border-radius: 25px;
   }
 
   .fact_ul_recovered li{
@@ -594,6 +597,7 @@
     margin-left:50%;
     margin-top: 4%;
     opacity:90%;
+    border-radius: 25px;
   }
   
   .fact_ul_deaths li{
@@ -641,6 +645,7 @@
     margin-left:37%;
     margin-top: 4%;
     opacity:90%;
+    border-radius: 25px;
   }
 
   .fact_ul_chance li{
@@ -687,6 +692,7 @@
     margin-left:78%;
     margin-top: 4%;
     opacity:90%;
+    border-radius: 25px;
   }
   
   .fact_ul_today li{
@@ -757,6 +763,7 @@
    margin-left:25%;
    margin-top: 4%;
    opacity:90%;
+   border-radius: 25px;
    } 
 
   .Info p{
