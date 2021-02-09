@@ -36,3 +36,4 @@
 - (https://www.channelnewsasia.com/news/singapore/covid-19-cases-singapore-steroid-treatment-dexamethasone-12858534)
 - (https://www.moh.gov.sg/covid-19/vaccination)
 - (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
+- (https://simplestepscode.com/javascript-quiz-tutorial/)
