@@ -1,16 +1,33 @@
 # 04&15_Diving-into-the-pandemic_Assg3_website
-
-- The purpose of our website is to educate people regarding covid-19.
+The purpose of our website is to educate people regarding covid-19 in Singapore.
 - We will be using summarized text and quiz.
 - Covid-19 API is featured in Postman.
 - index.html will have lottie loading screen which will load secondpage.html which is the main page
 - secondpage.html will contain API data and some text
 - thirdpage.html will contain information used for quiz
-- quiz will be graded by points
+- The quiz will be graded by points
 - name and points will be stored in restDB and loaded in quiz page dynamically
 
+# Design Process
+This website is for people looking for further information on the recent pandemic virus, Coronavirus.
 
-## Technologies Used
+- As a user, I should be able to read the information given and be able to try the quiz provided in the end.
+
+# Research
+- Information was reinforced with details from World Health Organization.
+Link: https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=EAIaIQobChMI6NHbqffu7gIVDhBgCh0ZWADjEAAYASAAEgJlTvD_BwE
+
+# Features
+Implemented Features:
+- Pages Featuring:
+  - Loading screen with Lottie Animation
+  - Recent data on Coronavirus in Singapore, such as Total cases, current infected, death counts etc.
+  - Important Information of Covid-19
+  - Further scientific information on the Coronavirus (Background, Infection, Treatments/ Vaccination, Preventions)
+  - Quiz featuring questions given above
+  - RestDB working with javascript to update and put data 
+
+## Technologies Used, Credits
 [Covid API Credits](https://disease.sh)
 
 [Images]
