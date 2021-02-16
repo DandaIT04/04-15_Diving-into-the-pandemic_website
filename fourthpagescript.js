@@ -53,6 +53,7 @@ var myQuestions = [
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
+retrieveScoreboard();
 
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
 
@@ -128,6 +129,10 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 		// show number of correct answers out of total
 		resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+
+		// Get name input from user in html document for calling the function addToScoreboard
+		var nameInput = document.getElementById('contact-name').value;
+		addToScoreboard(nameInput, numCorrect);
 	}
 	// show questions right away
 	showQuestions(questions, quizContainer);
@@ -136,5 +141,53 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 	submitButton.onclick = function(){
 		showResults(questions, quizContainer, resultsContainer);
 	}
+}
 
+// Retrieve scoreboard data from restDB
+function retrieveScoreboard(limit = 5, all = true){
+	var settings = {
+		"async": true,
+		"crossDomain": true,
+		"url": "https://assignment03database-6e9e.restdb.io/rest/scoreboard",
+		"method": "GET",
+		"headers": {
+		"content-type": "application/json",
+		"x-apikey": "602245563f9eb665a1689320",
+		"cache-control": "no-cache"
+		}
+	}
+	
+	$.ajax(settings).done(function (response) {
+		console.log(response);
+
+		let content = "";
+		for (var i = 0; i < response.length && i < limit; i++)
+		{
+			content += "<tr><td>" + response[i].name + "</td>" + "<td>" + response[i].results + "</td>";
+		}
+
+		$("#scoreboard-list tbody").html(content);
+	});
+}
+
+// Adding new scoreboard data to restDB
+function addToScoreboard(nameInput, numCorrect){
+	var jsondata = {"name": nameInput,"results": numCorrect};
+	var settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://assignment03database-6e9e.restdb.io/rest/scoreboard",
+	"method": "POST",
+	"headers": {
+		"content-type": "application/json",
+		"x-apikey": "602245563f9eb665a1689320",
+		"cache-control": "no-cache"
+	},
+	"processData": false,
+	"data": JSON.stringify(jsondata)
+	}
+
+	$.ajax(settings).done(function (response) {
+	console.log(response);
+	});
 }
