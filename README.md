@@ -33,7 +33,10 @@ Implemented Features:
   - (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/)
 - Pitch
   - (https://drive.google.com/file/d/1TuZ2zaCMwCqZpBWO5f5n78GtkZ_-Thf_/view?usp=sharing)
-
+- RestDB Database
+  - Invited teacher, Mr HUNG to database hosted on https://restdb.io/
+- Initial Website Design
+  - Included in repository as " Initial Design for Covid Website - Diving into the pandemic.pdf "
 ## Technologies Used, Credits
 [Covid API Credits](https://disease.sh)
 
