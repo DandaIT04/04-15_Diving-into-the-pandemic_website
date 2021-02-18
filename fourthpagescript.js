@@ -128,7 +128,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 		}
 
 		// show number of correct answers out of total
-		resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+		resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length + ' Correct';
 
 		// Get name input from user in html document for calling the function addToScoreboard
 		var nameInput = document.getElementById('contact-name').value;

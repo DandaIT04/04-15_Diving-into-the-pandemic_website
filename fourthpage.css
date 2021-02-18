@@ -499,6 +499,8 @@ template {
 #results{
   color:white;
   background-color:black;
+  font-size:150%;
+  text-align: center;
 }
 
 .parallax h2
@@ -597,6 +599,11 @@ template {
   .container{
     padding-bottom:120%;
   }
+
+  .parallax table
+{
+  width: 100%;
+}
 
 
 }
