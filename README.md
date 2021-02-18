@@ -27,6 +27,9 @@ Implemented Features:
   - Quiz featuring questions given above
   - RestDB working with javascript to update and put data 
 
+- Website
+- (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/)
+
 ## Technologies Used, Credits
 [Covid API Credits](https://disease.sh)
 
