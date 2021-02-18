@@ -30,7 +30,7 @@ Implemented Features:
 - Website
 - (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/)
 - Pitch
-- (https://drive.google.com/file/d/1XqhkxQHnNpQHSym8OiZMsD6nvYBWKoQR/view?usp=sharing)
+- (https://drive.google.com/file/d/1TuZ2zaCMwCqZpBWO5f5n78GtkZ_-Thf_/view?usp=sharing)
 
 ## Technologies Used, Credits
 [Covid API Credits](https://disease.sh)
