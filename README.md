@@ -13,9 +13,11 @@ This website is for people looking for further information on the recent pandemi
 
 - As a user, I should be able to read the information given and be able to try the quiz provided in the end.
 
+- The Pitch video (Link > MP4), Initial Design (PDF) and Website Links are included in this repository.
+
 # Research
 - Information was reinforced with details from World Health Organization.
-Link: https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=EAIaIQobChMI6NHbqffu7gIVDhBgCh0ZWADjEAAYASAAEgJlTvD_BwE
+  - Link: https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=EAIaIQobChMI6NHbqffu7gIVDhBgCh0ZWADjEAAYASAAEgJlTvD_BwE
 
 # Features
 Implemented Features:
@@ -28,9 +30,9 @@ Implemented Features:
   - RestDB working with javascript to update and put data 
 
 - Website
-- (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/)
+  - (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/)
 - Pitch
-- (https://drive.google.com/file/d/1TuZ2zaCMwCqZpBWO5f5n78GtkZ_-Thf_/view?usp=sharing)
+  - (https://drive.google.com/file/d/1TuZ2zaCMwCqZpBWO5f5n78GtkZ_-Thf_/view?usp=sharing)
 
 ## Technologies Used, Credits
 [Covid API Credits](https://disease.sh)
