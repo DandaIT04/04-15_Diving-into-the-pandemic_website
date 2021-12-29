@@ -30,7 +30,7 @@ Implemented Features:
   - RestDB working with javascript to update and put data 
 
 - Website
-  - (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/)
+  - (https://dandait04.github.io/04-15_Diving-into-the-pandemic_website/secondpage.html)
 - Pitch
   - (https://drive.google.com/file/d/1TuZ2zaCMwCqZpBWO5f5n78GtkZ_-Thf_/view?usp=sharing)
 - RestDB Database
